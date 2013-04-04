@@ -1,3 +1,18 @@
 body {
- background: teal;	
+		 font-family: 'Share+Tech+Mono', courier, serif;
+		 color: black;
+		 background: ;
+		 /* need dotmatrix paper background. see img dir*/
 }
+
+ul.nav {
+			 margin: 120px 0 0 0;
+			 list-style: none;
+			 float: right;
+			 }	
+			 
+ul.nav li {
+			 float: left;
+			 margin-right: 40px;
+			 
+			 }
