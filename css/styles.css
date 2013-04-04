@@ -5,6 +5,11 @@ body {
 		 /* need dotmatrix paper background. see img dir*/
 }
 
+a {
+	color: teal;
+	text-decoration: none;
+	}
+
 ul.nav {
 			 margin: 120px 0 0 0;
 			 list-style: none;
