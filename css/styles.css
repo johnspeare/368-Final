@@ -10,16 +10,19 @@ a {
 	text-decoration: none;
 	}
 
+img {
+		max-width: 100%;
+		}	
+	
 ul.nav {
-			 margin: 120px 0 0 0;
+			 margin: 7.5em 0 0 0;
 			 list-style: none;
 			 float: right;
 			 }	
 			 
 ul.nav li {
 			 float: left;
-			 margin-right: 40px;
-			 
+			 margin-right: 2.5em;
 			 }
 			 
 li.dormant {
