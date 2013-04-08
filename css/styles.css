@@ -47,12 +47,12 @@ li.dormant {
 
 
 #papers-list p {
-			 width: 23.5%;
+			 width: 26%;
 			 float: left;
-			 margin: 1em;
-			 padding: 1em;
-			 
-			 }
+			 margin: 0em 1.5em 0em 0em;
+			 padding: 0em 1.5em 0em 0em;
+}
+
 
 /*
 #inetLang-img img {
