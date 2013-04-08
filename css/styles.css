@@ -1,5 +1,5 @@
 body {
-		 font-family: 'Share+Tech+Mono', courier, serif;
+		 font-family: 'Roboto Condensed', courier, sans-serif;
 		 color: black;
 		 background: ;
 		 /* need dotmatrix paper background. see img dir*/
@@ -44,9 +44,15 @@ li.dormant {
 			 width: 91.5%;
 }
 
-#papers-list ul {
-			 list-style: none;
-}	
+
+
+#papers-list p {
+			 width: 23.5%;
+			 float: left;
+			 margin: 1em;
+			 padding: 1em;
+			 
+			 }
 
 /*
 #inetLang-img img {
