@@ -1,0 +1,4 @@
+-- make dot matrix size of window
+-- create polaroid frames for images
+-- float nav right on small screens
+-- color and form!
