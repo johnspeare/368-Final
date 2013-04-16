@@ -22,6 +22,7 @@ img {
 		max-width: 100%;
 		}	
 	
+			
 ul.nav {
 			 margin: 7.5em 0 0 0;
 			 list-style: none;
@@ -31,6 +32,7 @@ ul.nav {
 ul.nav li {
 			 float: left;
 			 margin-right: 2.5em;
+			
 			 }
 			 
 li.dormant {
@@ -70,3 +72,41 @@ li.dormant {
 			margin: 0 1.5em 0 0;
 			}
 */
+
+/* Small ----------- */
+@media screen and (max-width : 480px) {
+
+      .grid_1,
+      .grid_2,
+      .grid_3,
+      .grid_4,
+      .grid_5,
+      .grid_6,
+      .grid_7,
+      .grid_8,
+      .grid_9,
+      .grid_10,
+      .grid_11,
+      .grid_12 {
+                width:100%;
+      }
+                                                
+      ul.nav {
+       width: 100%;
+       margin: 0 0 0 0;                                           
+    }
+                                
+     ul.nav li {
+      float: left;
+    }
+		#papers-list p {
+		width: 100%;
+		float: none;
+		margin: 1.0em 0em 1.0em 0em;
+		padding: 1.0em 0.25em 1.0em .25em;
+		border-style: dotted;
+		border-width: thin;
+		border-color: #A63696;
+		}
+
+}		
