@@ -2,3 +2,6 @@
 -- create polaroid frames for images
 -- float nav right on small screens
 -- color and form!
+-- add m links for small screens (blog)
+-- convert pdf to html for devices
+-- add links to pdf -- default port images to big (not pdf)

@@ -38,7 +38,10 @@ ul.nav li {
 li.dormant {
 				color: grey;
 				}			 
-				
+
+p.download {
+				font-size: 85%;
+}				
 
 				
 #intro p {
@@ -73,8 +76,8 @@ li.dormant {
 			}
 */
 
-/* Small ----------- */
-@media screen and (max-width : 480px) {
+/* Small ----------- up to 600 -- consider breaking at 480 and 600*/
+@media screen and (max-width : 600px) {
 
       .grid_1,
       .grid_2,
@@ -109,4 +112,8 @@ li.dormant {
 		border-color: #A63696;
 		}
 
+		#cycling-intro p {
+			display: none;
+			}
+		
 }		
