@@ -5,3 +5,5 @@
 -- add m links for small screens (blog)
 -- convert pdf to html for devices
 -- add links to pdf -- default port images to big (not pdf)
+-- scale H1/H2 for <480
+-- fix image size at <600
