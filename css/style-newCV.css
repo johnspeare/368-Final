@@ -12,16 +12,15 @@ body > div {
 
 
 .container {
-
-	
 	
 }
 
+/*http://www.hongkiat.com/blog/css-content-accordion/*/
 
-	
 
 .row div{
 	float: left;
+
 }
 
 
@@ -36,6 +35,17 @@ body > div {
  background: steelblue;	
 }
 
+.box6:hover, .box15:hover, .box23:hover, .box31:hover {
+	 -webkit-transform: scale(1.05);
+     -moz-transform: scale(1.05);
+          transform: scale(1.05);
+		  background: red;
+}
+
+.box6:active, .box15:active, .box23:active, .box31:active {
+	
+		  background: yellow;
+}
 
 
 .box15 {
@@ -72,13 +82,17 @@ margin: 0.625em;
  
 }
 
-/*body > div:after {
+body > div:after {
 	content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
-}*/
+}
+
+
+ 
+
 /*
 
 #firstRow div{
