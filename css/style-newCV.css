@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body > div {
+	
+	margin: 0 auto;
+	width: 100%;
+	
+	}
+
+
+
+.container {
+
+	
+	
+}
+
+
+	
+
+.row div{
+	float: left;
+}
+
+
+
+.box6 {
+	margin: 0.625em 0.625em;
+   width: 6.25em;
+   height: 2.5em;
+  border: 0.25em solid black;
+  padding: 0.125em;
+  border-radius: 0.938em;
+ background: steelblue;	
+}
+
+
+
+.box15 {
+margin: 0.625em;
+   width: 14.6em;
+   height: 2.5em;
+  border: 0.25em solid black;
+  padding: 0.125em;
+  border-radius: 0.938em;
+  background: steelblue;
+ 
+}
+
+ 
+.box23 {
+ 
+  margin: 0.625em; 
+  width: 23em;
+   height: 2.5em;
+  border: 0.25em solid black;
+  padding: 0.125em;
+  border-radius: 0.938em;
+  background: steelblue;
+}
+
+.box31 {
+ margin: 0.625em;
+   width: 31.2em;
+   height: 2.5em;
+  border: 0.25em solid black;
+  padding: 0.125em;
+  border-radius: 0.938em;
+  background: steelblue;
+ 
+}
+
+/*body > div:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}*/
+/*
+
+#firstRow div{
+	float: left;
+}
+
+#firstRow:after {
+	content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+
+#secondRow div{
+	float:left;
+	
+}
+	
+#secondRow:after {
+	content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+#thirdRow div{
+	float:left;
+	
+}
+	
+#thirdRow:after {
+	content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+
+
+#fourthRow div{
+	float:left;
+	
+}
+	
+#fourthRow:after {
+	content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+ 
