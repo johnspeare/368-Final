@@ -1,0 +1,216 @@
+/* 
+	Global Styling 
+	===
+	- What is getting inherited? What is not? 
+*/
+
+body {
+	
+	font-family: 'Vollkorn', serif;
+	;
+	
+}
+
+#shift {
+    margin: 0 0 0 3%;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Nobile', sans-serif;
+	
+}
+
+h1 {
+	text-indent: .25em;
+
+}
+	
+h2 {
+	
+	margin-bottom: 0;
+	padding: 0 0em;
+	border-bottom: teal thin solid;
+	clear: both;
+	text-indent: -1.5%;
+	
+}
+
+h4 {
+	/*text-indent: 1 em;*/
+	margin-bottom: 0;
+	margin-bottom: -1em;
+	
+}
+
+
+a:link, 
+a:visited {
+	text-decoration: none;
+	color: teal;
+	/*letter-spacing: 2px;
+	padding: 20px 20px 20px 40px;
+	
+	text-transform: uppercase;*/
+}
+
+
+a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+
+nav a:active {
+	color: #000;
+}
+
+/*.expChunk {
+	
+	margin-top: .25em;
+*/
+}
+
+
+
+article p {
+	padding: 0 .9em;
+}
+
+/*section p {
+	border-width: 0;
+	padding-width: 0;
+}*/
+
+.main1 {
+margin: 0;
+padding: 0;
+
+}
+
+.main2 {
+margin: 0;
+padding: 0;
+
+}
+.expChunk {
+    width: 60%;
+    float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.expChunk ul {
+	
+   margin: 0 0 0 -1.75em;
+		
+}
+
+.expChunk li, .date li {
+	
+	list-style: none;	
+}
+
+ul.teachEx {
+	margin: -0.75em 0 0 -1.75em;
+	padding: 0 3em;
+}
+
+h2.h2AfterStuff {
+	padding-top: 1em;
+}
+
+ul.coursework {
+	
+	margin: 1.25em 0 0 0;
+	float: left;
+	padding-left: 0;
+}
+
+.title {
+	text-indent: 0em;
+	margin-bottom: 0em;
+}
+
+
+.date {
+	float: left;	
+	width: auto;
+}
+
+
+
+/*.date {
+	text-align: right;
+}*/
+
+.lastPat p {
+	padding: 0 0 1em .9em;
+}
+/*
+.expChunk p {
+	margin-bottom: -.5em;
+}
+ 
+	Main Navigation
+	===
+	- Apply styling only to main navigation with specificity
+
+
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+}
+
+nav a:link, 
+nav a:visited {
+	background: rgba(255,255,255,.25);
+	color: #fff;
+	display: block;
+	letter-spacing: 2px;
+	padding: 20px 20px 20px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* 
+nav a:hover {
+	background: #FF8000;
+}
+
+
+nav a:active {
+	color: #000;
+}
+
+a#grid:hover {
+	background: url("../img/icons/award.png") #FF8000 no-repeat left center;
+}
+
+ a#wiki:hover {
+	background: url("../img/icons/grid.png") #FF8000 no-repeat left center;
+}
+
+ a#info:hover {
+	background: url("../img/icons/heart.png") #FF8000 no-repeat left center;
+}
+
+/* 
+	Feature Image
+	===
+
+article img {
+	background: #000;
+	box-shadow: 2px 2px 8px black;
+	padding: 10px;
+	border: 10px solid #fff; 
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+article img:hover {
+	border: 10px solid orange;
+}
+
+
+*/
+
