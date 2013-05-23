@@ -4,13 +4,22 @@
 	- What is getting inherited? What is not? 
 */
 
+header ul {
+	float: left;
+	list-style:none;
+	margin:0 0 1em 1.2em;
+}
+
+
+	
+
 body {
 	background-image: url("../img/dm-83opacity.jpg") ;
 		 background-repeat:repeat-y;
 		 background-position:center;
 		 background-size: 100%;
 		
-	font-family:   'Raleway Dots' 'Vollkorn', serif;
+	font-family:   'Raleway Dots' courier, serif;
 	text-shadow: 1px 1px 1px #000;
 	
 	
@@ -21,14 +30,15 @@ body {
     margin: 0 0 0 3%;
 }
 h1, h2, h3, h4, h5 {
-	font-family:  'Raleway Dots'  'Nobile', sans-serif;
+	font-family:  'Raleway Dots'  courier, sans-serif;
 	width: 92%;
 	text-shadow: 1px 1px 0 #000;
+	
 	
 }
 
 h1 {
-	margin-left: 1.4em;
+	margin:1em 0 0.5em 1.6em;
 
 }
 	
