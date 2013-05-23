@@ -16,45 +16,33 @@ header div {
 
 }
 
-	
-
 body {
-	background-image: url("../img/dm-83opacity.jpg") ;
-		 background-repeat:repeat-y;
-		 background-position:center;
-		 background-size: 100%;
-		
-	font-family:   'Raleway Dots' courier, serif;
-	text-shadow: 1px 1px 1px #000;
 	
+	font-family: 'Vollkorn', serif;
+	;
 	
-
 }
 
 #shift {
     margin: 0 0 0 3%;
 }
 h1, h2, h3, h4, h5 {
-	font-family:  'Raleway Dots'  courier, sans-serif;
-	width: 92%;
-	text-shadow: 1px 1px 0 #000;
-	
+	font-family: 'Nobile', sans-serif;
 	
 }
 
 h1 {
-	margin:1em 0 0.5em 1.6em;
+	text-indent: .25em;
 
 }
 	
 h2 {
 	
 	margin-bottom: 0;
-	margin-left: .6em;
 	padding: 0 0em;
-	border-bottom: grey thin dotted;
+	border-bottom: teal thin solid;
 	clear: both;
-	
+	text-indent: -1.5%;
 	
 }
 
@@ -69,7 +57,7 @@ h4 {
 a:link, 
 a:visited {
 	text-decoration: none;
-	color: black;
+	color: teal;
 	/*letter-spacing: 2px;
 	padding: 20px 20px 20px 40px;
 	
@@ -78,7 +66,7 @@ a:visited {
 
 
 a:hover {
-	color: green;
+	color: grey;
 	text-decoration: underline;
 }
 
@@ -118,7 +106,7 @@ padding: 0;
 .expChunk {
     width: 60%;
     float: left;
-	margin: 0 0 0 1em;
+	margin: 0;
 	padding: 0;
 }
 
