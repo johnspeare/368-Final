@@ -1,20 +1,47 @@
+
+
 body {
+		 
 		 font-family: 'Roboto Condensed', courier, sans-serif;
 		 color: black;
-		 background-image: url("../img/dirtyDotMatrixPaper-21k.jpg");
-		 background-repeat:repeat-y;
-		 background-position:center;
-		 background-size: 100%;
+		 background-image: url("../img/straws.png");
+		 
 		 }
+		 
+div#header-fixed {
+	  position:fixed;
+	  top:0px;
+	  margin:0 0 0 2em;
+	  background-image: url("../img/straws.png");
+	  width:90%;
+	  border-bottom: thin solid #A63696;
+}
+
+#header-fixed h1{
+    margin-left: 1em;
+}
+
+article {
+	margin: 6.25em;}
 
 a {
 	color: #A63696;
 	text-decoration: none;
 	}
 	
-h1 {
-	 color: black;
+a:hover {
+	color: grey;
+	text-decoration: underline;
+	
 }
+	
+h1 {
+	 
+	 text-indent: -1em;
+	  text-shadow:   2px 2px white, -2px -1px 0px white, 1px 0px 3px #A63696;
+}
+
+
 
 h2 {
 	 color: black;
@@ -22,11 +49,15 @@ h2 {
 
 img {
 		max-width: 100%;
+		-moz-box-shadow:    1px 1px 3px 3px rgba(166,54,150,.25);
+  		-webkit-box-shadow: 1px 1px 3px 3px rgba(166,54,150,.25);
+ 		 box-shadow:         1px 1px 3px 3px rgba(166,54,150,.25);
+		
 		}	
 	
 			
 ul.nav {
-			 margin: 7.5em 0 0 0;
+			 margin: 0em 2em 0 0;
 			 list-style: none;
 			 float: right;
 			 }	
@@ -67,18 +98,21 @@ p.download {
 			 margin: 0em 1.5em 0em 0em;
 			 padding: 0em 1.5em 0em 0em;
 }
-
-#inetLang-img img {
+#dork img,
+#inetLang-img img,
+#ovenPancake-img img {
+				margin-top: 1.3em;
 				border-radius:2em;
 }
 
-/*
-#inetLang-img img {
-			margin: 0 1.5em 0 0;
-			}
-*/
+#ovenPancake-img img:hover,
+#inetLang-img img:hover {
+    -webkit-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+}
 
-/* Small ----------- up to 600 -- consider breaking at 480 and 600*/
+/* ipad ----------- up to 600 -- */
 @media screen and (max-width : 600px) {
 
       .grid_1,
@@ -113,8 +147,71 @@ p.download {
 		border-color: #A63696;
 		}
 
-		#cycling-intro p {
+		/*#cycling-intro p {
 			display: none;
-			}
+			}*/
+		
+}	
+
+/* Small ----------- up to 480 -- consider breaking at 480 and 600*/
+@media screen and (max-width : 480px) {
+
+      .grid_1,
+      .grid_2,
+      .grid_3,
+      .grid_4,
+      .grid_5,
+      .grid_6,
+      .grid_7,
+      .grid_8,
+      .grid_9,
+      .grid_10,
+      .grid_11,
+      .grid_12 {
+                width:100%;
+      }
+                                                
+      ul.nav {
+       width: 100%;
+       margin: 0 0 0 0;                                           
+    }
+                                
+     ul.nav li {
+      float: left;
+    }
+	
+	h1 {
+	 
+	 text-indent: 0em;
+	
+}
+div {
+	clear:both;
+}
+
+div#header-fixed {
+	  position:fixed;
+	  top:0px;
+	  margin:0 0 0 0em;
+	  background-image: url("../img/straws.png");
+	  width:100%;
+	  
+}
+
+#intro p {
+			 width: 100%;
+}
+		#papers-list p {
+		width: 100%;
+		margin: 1.0em 0em 1.0em 0em;
+		padding: 1.0em 0.25em 1.0em .25em;
+		border-style: dotted;
+		border-width: thin;
+		border-color: #A63696;
+		}
+
+		/*#cycling-intro p {
+			display: none;
+			}*/
 		
 }		
