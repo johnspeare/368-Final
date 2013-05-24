@@ -3,6 +3,32 @@
 	===
 	- What is getting inherited? What is not? 
 */
+
+
+@font-face {
+	font-family: BPdots;
+	src: url('../fonts/BPdots.eot);
+	src: local(‚ò?'),
+			 url('../fonts/BPdots.woff') format('woff'),
+			 url('../fonts/BPdots.ttf') format('truetype'),
+			 url('../fonts/BPdots#webfont') format('svg');
+			 src: url('../fonts/BPdots.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+/*
+@font-face {
+	font-family: BPdots;
+	src: url('../fonts/BPdotsUnicaseVerticalBold.eot);
+	src: local(‚ò?'),
+			 url('../fonts/BPdotsUnicaseVerticalBold.woff') format('woff'),
+			 url('../fonts/BPdotsUnicaseVerticalBold.ttf') format('truetype'),
+			 url('../fonts/BPdotsUnicaseVerticalBold.#webfont') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+/*
 @font-face { font-family: BPdots; 
 					 src: url('../fonts/BPdots.otf');
 					 
@@ -12,7 +38,7 @@
 					 font-weight: bold; 
 					 src: url('../fonts/BPdotsUnicaseVertical-Bold.otf'); 
 					 
-					 }
+					 }*/
 
 
 header ul {
