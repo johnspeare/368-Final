@@ -3,18 +3,44 @@
 	===
 	- What is getting inherited? What is not? 
 */
+@font-face { font-family: BPdots; src: url('../fonts/BPdots.otf'); } 
+@font-face { font-family: BPdots; font-weight: bold; src: url('../fonts/BPdotsUnicaseVertical-Bold.otf'); }
+
 
 header ul {
 	float: left;
 	list-style:none;
-	margin:0 0 1em 1.2em;
+	margin:0 0 1em .5em;
 }
 
 header div {
 	float:right;
 	margin: 0 10em;
-
 }
+
+#picContext div {
+		position:relative;
+		}
+		
+img#picContext {
+	position: absolute;
+	right: 4em;
+	}
+	
+header div a:link, 
+header div a:visited {
+	background-image: url("../img/brushed_alu_dark.png");
+	border-radius:15%;
+	text-decoration: none;
+	color: beige;	
+}
+
+header div a:hover {
+	color: grey;
+	background:transparent;
+	text-decoration: none;
+}
+
 
 	
 
@@ -24,7 +50,7 @@ body {
 		 background-position:center;
 		 background-size: 100%;
 		
-	font-family:   'Raleway Dots' courier, serif;
+	font-family:  BPDots, 'Raleway Dots', courier, serif;
 	text-shadow: 1px 1px 1px #000;
 	
 	
@@ -35,7 +61,8 @@ body {
     margin: 0 0 0 3%;
 }
 h1, h2, h3, h4, h5 {
-	font-family:  'Raleway Dots'  courier, sans-serif;
+	font-family: BPDots, 'Raleway Dots',  courier, sans-serif;
+	color: grey;
 	width: 92%;
 	text-shadow: 1px 1px 0 #000;
 	
@@ -52,7 +79,7 @@ h2 {
 	margin-bottom: 0;
 	margin-left: .6em;
 	padding: 0 0em;
-	border-bottom: grey thin dotted;
+	
 	clear: both;
 	
 	
@@ -126,6 +153,10 @@ padding: 0;
 	
    margin: 0 0 0 -1.75em;
 		
+}
+
+ul#postPic {
+    margin: -2em 0 0 1em
 }
 
 .expChunk li, .date li {
