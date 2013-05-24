@@ -3,8 +3,16 @@
 	===
 	- What is getting inherited? What is not? 
 */
-@font-face { font-family: BPdots; src: url('../fonts/BPdots.otf'); } 
-@font-face { font-family: BPdots; font-weight: bold; src: url('../fonts/BPdotsUnicaseVertical-Bold.otf'); }
+@font-face { font-family: BPdots; 
+					 src: url('../fonts/BPdots.otf');
+					 
+					
+					  } 
+@font-face { font-family: BPdots; 
+					 font-weight: bold; 
+					 src: url('../fonts/BPdotsUnicaseVertical-Bold.otf'); 
+					 
+					 }
 
 
 header ul {
@@ -50,8 +58,8 @@ body {
 		 background-position:center;
 		 background-size: 100%;
 		
-	font-family:  BPDots, 'Raleway Dots', courier, serif;
-	text-shadow: 1px 1px 1px #000;
+	font-family:  BPDots, courier, serif;
+	/*text-shadow: 1px 1px 1px #000;*/
 	
 	
 
@@ -61,10 +69,10 @@ body {
     margin: 0 0 0 3%;
 }
 h1, h2, h3, h4, h5 {
-	font-family: BPDots, 'Raleway Dots',  courier, sans-serif;
-	color: grey;
+	font-family: BPDots, courier, sans-serif;
+	color: black;
 	width: 92%;
-	text-shadow: 1px 1px 0 #000;
+	/*text-shadow: 1px 1px 0 #000;*/
 	
 	
 }
