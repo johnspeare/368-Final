@@ -74,7 +74,19 @@ li.dormant {
 
 p.download {
 				font-size: 85%;
-}				
+}	
+
+div#cvStack  {
+    margin: 4.5em 0 0 0;
+	height: 128px;
+	width: auto;
+	background: url(../img/cvStack.jpg) no-repeat;
+	text-indent: 5em;
+}	
+
+#cvStack p {
+	line-height: 2.50em;
+}
 
 				
 #intro p {
@@ -97,6 +109,27 @@ p.download {
 			 float: left;
 			 margin: 0em 1.5em 0em 0em;
 			 padding: 0em 1.5em 0em 0em;
+}
+
+#dork img{
+	position: relative;
+	overflow: hidden;
+}
+
+#dork p {
+	width: 100%;
+	position: absolute; 
+	margin-left: -200em;
+	margin-top: -2.5em;
+	background-image: url("../img/straws.png");
+	font-size: 0.65em;
+	
+}
+
+#dork:hover p {
+	
+	margin-left: -0.10em;
+	transition: margin-left 1s;
 }
 #dork img,
 #inetLang-img img,
