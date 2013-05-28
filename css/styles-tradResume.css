@@ -6,15 +6,15 @@
 
 
 @font-face {
-	font-family: BPdots;
-	src: url('../fonts/BPdots.eot);
-	src: local(‚ò?'),
-			 url('../fonts/BPdots.woff') format('woff'),
-			 url('../fonts/BPdots.ttf') format('truetype'),
-			 url('../fonts/BPdots#webfont') format('svg');
-			 src: url('../fonts/BPdots.otf');
-font-weight: normal;
-font-style: normal;
+	font-family:'BPdots';
+	src: url('../fonts/BPdots.eot');
+	/*src: local('thisisnotafontname'),*/
+	src: url('../fonts/BPdots.woff') format('woff'),
+		 url('../fonts/BPdots.ttf') format('truetype'),
+		 url('../fonts/BPdots#webfont') format('svg'),
+ 		 url('../fonts/BPdots.otf');
+/*font-weight: normal;
+font-style: normal;*/
 }
 
 /*
@@ -59,6 +59,9 @@ header div {
 img#picContext {
 	position: absolute;
 	right: 4em;
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 	}
 	
 header div a:link, 
@@ -84,7 +87,7 @@ body {
 		 background-position:center;
 		 background-size: 100%;
 		
-	font-family:  BPDots, courier, serif;
+	font-family:  'BPDots', courier, serif;
 	/*text-shadow: 1px 1px 1px #000;*/
 	
 	
@@ -95,7 +98,7 @@ body {
     margin: 0 0 0 3%;
 }
 h1, h2, h3, h4, h5 {
-	font-family: BPDots, courier, sans-serif;
+	font-family: 'BPDots', courier, sans-serif;
 	color: black;
 	width: 92%;
 	/*text-shadow: 1px 1px 0 #000;*/
