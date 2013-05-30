@@ -44,7 +44,7 @@ header div a:hover {
 }
 
 
-	
+	.mobNav {display:none;}
 
 body {
 	background-image: url("../img/dm-83opacity.jpg") ;
