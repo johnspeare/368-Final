@@ -202,72 +202,58 @@ ul.coursework {
 .lastPat p {
 	padding: 0 0 1em .9em;
 }
-/*
-.expChunk p {
-	margin-bottom: -.5em;
-}
- 
-	Main Navigation
-	===
-	- Apply styling only to main navigation with specificity
 
 
-nav li {
-	float: left;
-	list-style: none;
-	margin: 0 10px;
+@media screen and (max-width : 480px) {
+
+
+header ul {
+    margin: 0 0 0.85em -1.4em;
 }
 
-nav a:link, 
-nav a:visited {
-	background: rgba(255,255,255,.25);
-	color: #fff;
-	display: block;
-	letter-spacing: 2px;
-	padding: 20px 20px 20px 40px;
-	text-decoration: none;
-	text-transform: uppercase;
+h1#headName {
+    text-indent: -.5em;
 }
-
-/* 
-nav a:hover {
-	background: #FF8000;
+.expChunk{
+    width: 98%;
+    float:none;}
+	
+.date {
+    float: none;
+    margin: 0 0 0 1em;
 }
 
 
-nav a:active {
-	color: #000;
+h2 {width: 95%}
+
+.mobNav {
+    width:100%;
+    display: block;
+    margin: 0 0 0 -1.45em;
+
 }
 
-a#grid:hover {
-	background: url("../img/icons/award.png") #FF8000 no-repeat left center;
+.mobNav ul {
+    
+    list-style:none;
+	font-size: 1em;
+    clear:left;  
+    
 }
 
- a#wiki:hover {
-	background: url("../img/icons/grid.png") #FF8000 no-repeat left center;
+.btt {
+    
+    margin: .5em 0 0 1.25em;
+    font-size: .75em;
+	
 }
 
- a#info:hover {
-	background: url("../img/icons/heart.png") #FF8000 no-repeat left center;
+.mobNav li {
+    
+    border-top: black dotted thin;
+	padding-top: .15em;
+    line-height: 1.5em;
+    text-align:center;
+
 }
-
-/* 
-	Feature Image
-	===
-
-article img {
-	background: #000;
-	box-shadow: 2px 2px 8px black;
-	padding: 10px;
-	border: 10px solid #fff; 
-	float: right;
-	margin: 0 0 0 10px;
 }
-
-article img:hover {
-	border: 10px solid orange;
-}
-
-
-*/
-
