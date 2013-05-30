@@ -34,6 +34,10 @@ a:hover {
 	text-decoration: underline;
 	
 }
+
+
+
+
 	
 h1 {
 	 
@@ -74,19 +78,47 @@ li.dormant {
 
 p.download {
 				font-size: 85%;
-}	
+}
 
-div#cvStack  {
-    margin: 4.5em 0 0 0;
-	height: 128px;
-	width: auto;
-	background: url(../img/cvStack.jpg) no-repeat;
-	text-indent: 5em;
-}	
+div#cvStack {
+	margin: 4.5em 0 0 0;
+	
+
+}
 
 #cvStack p {
 	line-height: 2.50em;
 }
+
+
+#cvStack span{
+	padding-left: 4.5em;
+}
+
+#cvStack a {
+	display: block;
+}
+
+a#readable:hover  {
+	height: 64px;
+	width: 64px;
+	background: url(../img/cvStack.jpg) no-repeat;
+	
+	
+	
+	/*text-indent: 5em;*/
+}	
+
+a#dotMatrix:hover  {
+    
+	height: 64px;
+	width: 64px;
+	background: url(../img/cvStack.jpg) no-repeat;
+	background-position: 0px -64px;
+	
+	/*text-indent: 5em;*/
+}	
+
 
 				
 #intro p {
