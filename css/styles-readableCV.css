@@ -23,6 +23,10 @@ body {
 	
 }
 
+#cv {
+	text-shadow: .1em .1em black;
+}
+
 #shift {
     margin: 0 0 0 3%;
 }
@@ -173,13 +177,36 @@ header ul {
 h2 {width: 95%}
 
 .mobNav {
-	display: block;
+    width:100%;
+    display: block;
+    margin: 0 0 0 -2em;
 
 }
 
 .mobNav ul {
+    
     list-style:none;
-	clear:left;
+	font-family: 'Nobile', sans-serif;
+	font-size: 1em;
+    clear:left;  
+    
 }
 
+.btt {
+    
+    margin: .5em 0 0 0;
+    font-size: .75em;
+	
+}
+
+.mobNav li {
+    
+    border-top: black thin solid;
+	padding-top: .15em;
+    line-height: 1.5em;
+    text-align:center;
+
+	
+   
+}
 }
