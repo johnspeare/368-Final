@@ -21,6 +21,7 @@ div#header-fixed {
 
 #header-fixed h1{
     margin-left: 1em;
+		text-shadow:   0.5px -1px 0.75px #A63696;
 }
 
 article {
@@ -54,7 +55,7 @@ ul.nav li a:hover {
 h1 {
 	 
 	 text-indent: -1em;
-	  text-shadow:   2px 2px white, -2px -1px 0px white, 1px 0px 3px #A63696;
+	  
 }
 
 
