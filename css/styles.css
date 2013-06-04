@@ -234,7 +234,29 @@ a#dotMatrix:hover  {
 		/*#cycling-intro p {
 			display: none;
 			}*/
+	
+		#cvStack a {
+			display: inline;
+		}
 		
+		a#readable:hover  {
+			
+			background: none;
+			text-indent: 0em;
+		
+		}	
+		
+		a#dotMatrix:hover  {
+			
+			
+			background: none;
+			text-indent:0em;
+		}	
+	
+	
+		div#cvStack {
+        margin-top: 0em;
+}
 }	
 
 
@@ -316,8 +338,31 @@ div#header-fixed {
 	
 }	
 
-div#intro {
-    margin-top: 4%;
+	div#intro {
+		margin-top: 4%;
+	}
+	
+	#cvStack a {
+		display: inline;
+	}
+	
+	a#readable:hover  {
+		
+		background: none;
+		text-indent: 0em;
+	
+	}	
+	
+	a#dotMatrix:hover  {
+		
+		
+		background: none;
+		text-indent:0em;
+	}
+		
+	div#cvStack {
+        margin-top: 0em;
 }
+		
 		
 }		
