@@ -256,4 +256,14 @@ h2 {width: 95%}
     text-align:center;
 
 }
+
+ul#postPic {
+ margin-top: 0em;
+  margin-left:0em;
+}
+
+.main2 img{
+		display:none;
+		}
+
 }
