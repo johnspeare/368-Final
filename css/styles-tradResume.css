@@ -265,5 +265,51 @@ ul#postPic {
 .main2 img{
 		display:none;
 		}
+		
+header div {
+	margin: 0 8em;
+}
 
 }
+
+
+
+
+
+@media screen and (max-width : 600px) {
+	
+			header div {
+	margin: 0 8em;
+}
+
+
+
+	.main2 img {
+    position:absolute ;
+    opacity: 0.65;
+    left: 38%;
+}	
+
+ul#postPic{
+    margin-top: 1em;}
+	
+	}
+
+@media screen and (max-width : 900px) {
+	
+			header div {
+	margin: 0 8em;
+}
+
+
+
+	.main2 img {
+    position:absolute ;
+    opacity: 0.65;
+    left: 38%;
+}	
+
+ul#postPic{
+    margin-top: 1em;}
+	
+	}
