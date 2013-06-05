@@ -193,6 +193,15 @@ ul.coursework {
 	width: auto;
 }
 
+div#commServ {
+	position:relative;
+	}
+	
+#commServ img {
+	position:absolute;
+	
+	}
+
 
 
 /*.date {
@@ -262,6 +271,7 @@ ul#postPic {
   margin-left:0em;
 }
 
+#commServ img,
 .main2 img{
 		display:none;
 		}
@@ -278,7 +288,7 @@ header div {
 
 @media screen and (max-width : 600px) {
 	
-			header div {
+	header div {
 	margin: 0 8em;
 }
 
@@ -311,8 +321,8 @@ div.expChunk.noDate {
 div#techBM  {
 	width: 75%;
 }
-	
-	}
+
+
 
 @media screen and (max-width : 900px) {
 	
