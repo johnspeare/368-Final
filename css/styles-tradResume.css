@@ -291,7 +291,26 @@ header div {
 }	
 
 ul#postPic{
-    margin-top: 1em;}
+    margin-top: .5em;
+	margin-left: 0em;}
+	
+.expChunk {
+    width: 60%;
+    
+}
+ul.expChunk.noDate,
+div.expChunk.noDate {
+    width:80%;
+}
+
+.date {
+    margin-top: .5em;
+    margin-left: 1em;
+}
+
+div#techBM  {
+	width: 75%;
+}
 	
 	}
 
