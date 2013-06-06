@@ -16,6 +16,7 @@ body {
 	background-repeat:repeat-y;
 	background-position:center;
 	background-size: 100%;
+	padding-top: 1em;
     }
 
 
@@ -113,15 +114,7 @@ article p {
 
 
 
-.main1 {
-	margin: 0;
-	padding: 0;
-}
 
-.main2 {
-	margin: 0;
-	padding: 0;
-}
 
 .expChunk {
     width: 70%;
@@ -179,6 +172,10 @@ div#commServ {
 
 .lastPat p {
 	padding: 0 0 1em .9em;
+}
+
+.clearfix {
+	clear: both;
 }
 
 
@@ -287,6 +284,10 @@ div.expChunk.noDate {
 
 div#techBM  {
 	width: 75%;
+}
+
+#commServ img {
+    width: 140%;
 }
 
 }
