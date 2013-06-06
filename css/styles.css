@@ -9,11 +9,11 @@ body {
 		 }
 		 
 div#header-fixed {
-	  position:fixed;
+	  /*position:fixed;*/
 	  top:0px;
 	  margin:0 0 0 2em;
 	  background-image: url("../img/straws.png");
-	  width:90%;
+	  /*width:90%;*/
 	  border-bottom: thin solid #A63696;
 }
 
@@ -166,7 +166,7 @@ a#dotMatrix:hover  {
 #dork p {
 	width: 100%;
 	position: absolute; 
-	margin-left: -200em;
+	margin-left: -2000em;
 	margin-top: -2.5em;
 	background-image: url("../img/straws.png");
 	font-size: 0.65em;
@@ -177,9 +177,9 @@ a#dotMatrix:hover  {
 #dork:hover p {
 	
 	margin-left: -0.10em;
-	-webkit-transition: margin-left 1s;
-	-moz-transition: margin-left 1s;
-	transition: margin-left 1s;
+	-webkit-transition: margin-left 0.5s;
+	-moz-transition: margin-left 0.5s;
+	transition: margin-left 0.5s;
 }
 #dork img,
 #inetLang-img img,
@@ -257,6 +257,18 @@ a#dotMatrix:hover  {
 		div#cvStack {
         margin-top: 0em;
 }
+
+#dork p {
+	
+	width: 100%;
+	position: relative; 
+	margin-left: -0.10em;
+	margin-top: -2.5em;
+	background-image: url("../img/straws.png");
+	font-size: 0.65em;
+	text-indent: 1em;
+
+}
 }	
 
 
@@ -329,7 +341,7 @@ div#header-fixed {
 
 #dork p {
 	width: 100%;
-	position: absolute; 
+	position: relative; 
 	margin-left: -0.10em;
 	margin-top: -2.5em;
 	background-image: url("../img/straws.png");

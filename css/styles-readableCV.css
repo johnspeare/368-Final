@@ -4,10 +4,15 @@
 	- What is getting inherited? What is not? 
 */
 
+div.container {
+    max-width: 1024px;
+    margin:0 auto;
+    }
+
 header ul {
 	float: left;
 	list-style:none;
-	margin:0 0 1em 1.2em;
+	margin:0 0 1em 0;
 }
 
 header div {
@@ -106,7 +111,7 @@ padding: 0;
 
 }
 .expChunk {
-    width: 60%;
+    width: 65%;
     float: left;
 	margin: 0;
 	padding: 0;
@@ -160,6 +165,28 @@ ul.coursework {
 	padding: 0 0 1em .9em;
 }
 
+@media screen and (max-width : 600px) {
+
+h2 {
+   width: 95%; 
+}
+
+.expChunk{
+    width: 98%;
+    float:none;}
+.date {
+    float: none;
+    }
+header ul {
+	
+	margin-left: -1em;
+}
+
+.teachEx li {
+    text-indent:-0.75em
+}
+}
+
 @media screen and (max-width : 480px) {
 
 
@@ -203,8 +230,9 @@ h2 {width: 95%}
 	padding-top: .15em;
     line-height: 1.5em;
     text-align:center;
+}
 
-	
-   
+.teachEx li {
+    text-indent:-0.75em
 }
 }

@@ -4,6 +4,19 @@
 	- What is getting inherited? What is not? 
 */
 
+body {	
+	font-family:  'BPdotsRegular', courier, serif;
+	background-image: url("../img/straws.png");
+}
+
+.container {
+    max-width: 1024px;
+    margin:0 auto;
+	background-image: url("../img/dm-83opacity.jpg") ;
+	background-repeat:repeat-y;
+	background-position:center;
+	background-size: 100%;
+    }
 
 
 header ul {
@@ -46,18 +59,7 @@ header div a:hover {
 
 .mobNav {display:none;}
 
-body {
-	background-image: url("../img/dm-83opacity.jpg") ;
-		 background-repeat:repeat-y;
-		 background-position:center;
-		 background-size: 100%;
-		
-	font-family:  'BPdotsRegular', courier, serif;
-	/*text-shadow: 1px 1px 1px #000;*/
-	
-	
 
-}
 
 #shift {
     margin: 0 0 0 3%;
@@ -66,14 +68,10 @@ h1, h2, h3, h4, h5 {
 	font-family: 'BPdotsRegular', courier, sans-serif;
 	color: black;
 	width: 92%;
-	/*text-shadow: 1px 1px 0 #000;*/
-	
-	
-}
+	}
 
 h1 {
 	margin:1em 0 0.5em 1.6em;
-
 }
 	
 h2 {
@@ -81,14 +79,10 @@ h2 {
 	margin-bottom: 0;
 	margin-left: .6em;
 	padding: 0 0em;
-	
 	clear: both;
-	
-	
 }
 
 h4 {
-	/*text-indent: 1 em;*/
 	margin-bottom: 0;
 	margin-bottom: -1em;
 	
@@ -99,10 +93,6 @@ a:link,
 a:visited {
 	text-decoration: none;
 	color: black;
-	/*letter-spacing: 2px;
-	padding: 20px 20px 20px 40px;
-	
-	text-transform: uppercase;*/
 }
 
 
@@ -116,35 +106,23 @@ nav a:active {
 	color: #000;
 }
 
-/*.expChunk {
-	
-	margin-top: .25em;
-*/
-}
-
-
 
 article p {
 	padding: 0 .9em;
 }
 
-/*section p {
-	border-width: 0;
-	padding-width: 0;
-}*/
+
 
 .main1 {
-margin: 0;
-padding: 0;
-
+	margin: 0;
+	padding: 0;
 }
 
 .main2 {
-margin: 0;
-padding: 0;
-
-
+	margin: 0;
+	padding: 0;
 }
+
 .expChunk {
     width: 70%;
     float: left;
@@ -153,17 +131,14 @@ padding: 0;
 }
 
 .expChunk ul {
-	
    margin: 0 0 0 -1.75em;
-		
 }
 
 ul#postPic {
-    margin: -2em 0 0 1em
+    margin: -2em 0 0 1em;
 }
 
 .expChunk li, .date li {
-	
 	list-style: none;	
 }
 
@@ -177,11 +152,9 @@ h2.h2AfterStuff {
 }
 
 ul.coursework {
-	
 	margin: 1.25em 0 2em 0;
 	float: left;
 	padding-left: 0;
-	
 }
 
 .title {
@@ -204,12 +177,6 @@ div#commServ {
 	
 	}
 
-
-
-/*.date {
-	text-align: right;
-}*/
-
 .lastPat p {
 	padding: 0 0 1em .9em;
 }
@@ -225,9 +192,11 @@ header ul {
 h1#headName {
     text-indent: -.5em;
 }
+
 .expChunk{
     width: 98%;
-    float:none;}
+    float:none;
+}
 	
 .date {
     float: none;
@@ -241,31 +210,24 @@ h2 {width: 95%}
     width:100%;
     display: block;
     margin: 0 0 0 -1.45em;
-
 }
 
 .mobNav ul {
-    
     list-style:none;
 	font-size: 1em;
-    clear:left;  
-    
+    clear:left;   
 }
 
 .btt {
-    
     margin: .5em 0 0 1.25em;
     font-size: .75em;
-	
 }
 
 .mobNav li {
-    
     border-top: black dotted thin;
 	padding-top: .15em;
     line-height: 1.5em;
     text-align:center;
-
 }
 
 ul#postPic {
@@ -276,16 +238,14 @@ ul#postPic {
 #commServ img,
 .main2 img{
 		display:none;
-		}
+}
 		
 header div {
 	margin: 0 8em;
 }
 
 ul.coursework {
-	
 	margin-bottom: 0em;
-	
 }
 
 }
@@ -300,9 +260,7 @@ ul.coursework {
 	margin: 0 8em;
 }
 
-
-
-	.main2 img {
+.main2 img {
     position:absolute ;
     opacity: 0.65;
     left: 38%;
@@ -316,6 +274,7 @@ ul#postPic{
     width: 60%;
     
 }
+
 ul.expChunk.noDate,
 div.expChunk.noDate {
     width:80%;
@@ -330,17 +289,17 @@ div#techBM  {
 	width: 75%;
 }
 
-
+}
 
 @media screen and (max-width : 900px) {
 	
-			header div {
+header div {
 	margin: 0 8em;
 }
 
 
 
-	.main2 img {
+.main2 img {
     position:absolute ;
     opacity: 0.65;
     left: 38%;
@@ -349,4 +308,4 @@ div#techBM  {
 ul#postPic{
     margin-top: 1em;}
 	
-	}
+}
