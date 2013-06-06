@@ -354,6 +354,10 @@ div#header-fixed {
 		margin-top: 4%;
 	}
 	
+	#intro p{
+		width:101%;	
+	}
+	
 	#cvStack a {
 		display: inline;
 	}

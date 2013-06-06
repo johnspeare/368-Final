@@ -196,12 +196,15 @@ ul#postPic{
     margin-top: 1em;}
 	
 
+#commServ img {
+    width: 134%;
+}
 }
 
 
 
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 660px) {
 	
 
 
@@ -278,6 +281,8 @@ h2 {width: 95%}
     display: block;
     margin: 0 0 0 -6%;
 }
+
+h4 {margin-bottom: 0em;}
 
 .mobNav ul {
     list-style:none;
