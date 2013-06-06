@@ -16,7 +16,7 @@ body {
 	background-repeat:repeat-y;
 	background-position:center;
 	background-size: 100%;
-	padding-top: 1em;
+	padding: 1% 0;
     }
 
 
@@ -27,9 +27,11 @@ header ul {
 }
 
 header div {
-	float:right;
-	margin: 0 10em;
+	text-align:center;
+	padding-top:4%;
 }
+
+
 
 #picContext div {
 		position:relative;
@@ -178,84 +180,30 @@ div#commServ {
 	clear: both;
 }
 
-
-@media screen and (max-width : 480px) {
-
-
-header ul {
-    margin: 0 0 0.85em -1.4em;
-}
-
-h1#headName {
-    text-indent: -.5em;
-}
-
-.expChunk{
-    width: 98%;
-    float:none;
-}
+@media screen and (max-width : 900px) {
 	
-.date {
-    float: none;
-    margin: 0 0 0 1em;
-}
 
 
-h2 {width: 95%}
 
-.mobNav {
-    width:100%;
-    display: block;
-    margin: 0 0 0 -1.45em;
-}
 
-.mobNav ul {
-    list-style:none;
-	font-size: 1em;
-    clear:left;   
-}
+.main2 img {
+    position:absolute ;
+    opacity: 0.65;
+    left: 38%;
+}	
 
-.btt {
-    margin: .5em 0 0 1.25em;
-    font-size: .75em;
-}
-
-.mobNav li {
-    border-top: black dotted thin;
-	padding-top: .15em;
-    line-height: 1.5em;
-    text-align:center;
-}
-
-ul#postPic {
- margin-top: 0em;
-  margin-left:0em;
-}
-
-#commServ img,
-.main2 img{
-		display:none;
-}
-		
-header div {
-	margin: 0 8em;
-}
-
-ul.coursework {
-	margin-bottom: 0em;
-}
+ul#postPic{
+    margin-top: 1em;}
+	
 
 }
-
 
 
 
 
 @media screen and (max-width : 600px) {
 	
-	header div {
-	margin: 0 8em;
-}
+
 
 .main2 img {
     position:absolute ;
@@ -292,21 +240,81 @@ div#techBM  {
 
 }
 
-@media screen and (max-width : 900px) {
+
+@media screen and (max-width : 480px) {
+
+#shift {
+    margin: 0 0 0 1%;
+}
+
+header ul {
+    margin: 0 0 0.85em -1.4em;
+	float:none;
+}
+
+h1#headName {
+    text-indent: -.5em;
+}
+
+.expChunk{
+    width: 98%;
+    float:none;
+}
 	
-header div {
-	margin: 0 8em;
+.date {
+    float: none;
+    margin: 0 0 0 1em;
+}
+
+article p {
+	padding: 0 0;
+}
+
+
+h2 {width: 95%}
+
+.mobNav {
+    width:96%;
+    display: block;
+    margin: 0 0 0 -6%;
+}
+
+.mobNav ul {
+    list-style:none;
+	font-size: 1em;
+    clear:left;   
+}
+
+.btt {
+    margin: .5em 0 0 1.25em;
+    font-size: .75em;
+}
+
+.mobNav li {
+    border-top: black dotted thin;
+	padding-top: .15em;
+    line-height: 1.5em;
+    text-align:center;
 }
 
 
 
-.main2 img {
-    position:absolute ;
-    opacity: 0.65;
-    left: 38%;
-}	
-
-ul#postPic{
-    margin-top: 1em;}
-	
+#commServ img,
+.main2 img{
+		display:none;
 }
+		
+
+
+ul.coursework {
+	margin-bottom: 0em;
+}
+
+.teachEx li {
+    text-indent:-0.75em
+}
+
+}
+
+
+
