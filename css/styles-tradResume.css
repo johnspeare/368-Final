@@ -282,7 +282,10 @@ h2 {width: 95%}
     margin: 0 0 0 -6%;
 }
 
-h4 {margin-bottom: 0em;}
+h4 {
+	margin-bottom: -0.5em;
+	margin-top: 0.5em;
+	}
 
 .mobNav ul {
     list-style:none;
