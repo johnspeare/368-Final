@@ -182,7 +182,10 @@ div#commServ {
 	
 
 
-
+body {	
+	
+	background-image: none;
+}
 
 .main2 img {
     position:absolute ;
