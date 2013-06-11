@@ -74,19 +74,19 @@ h1, h2, h3, h4, h5 {
 	}
 
 h1 {
-	margin:1em 0 0.5em 1.6em;
+	margin:1em 0 0.5em 4.6%;
 }
 	
 h2 {
 	
 	margin-bottom: 0;
-	margin-left: .6em;
+	margin-left: 1.73%;
 	padding: 0 0em;
 	clear: both;
 }
 
 h4 {
-	margin-bottom: 0;
+	
 	margin-bottom: -1em;
 	
 }
@@ -111,7 +111,7 @@ nav a:active {
 
 
 article p {
-	padding: 0 .9em;
+	padding: 0 2.6%;
 }
 
 
@@ -121,16 +121,16 @@ article p {
 .expChunk {
     width: 70%;
     float: left;
-	margin: 0 0 0 1em;
+	margin: 0 0 0 2.88%;
 	padding: 0;
 }
 
 .expChunk ul {
-   margin: 0 0 0 -1.75em;
+   margin: 0 0 0 -5%;
 }
 
 ul#postPic {
-    margin: -2em 0 0 1em;
+    margin: -2em 0 0 6.88%;
 }
 
 .expChunk li, .date li {
@@ -138,8 +138,8 @@ ul#postPic {
 }
 
 ul.teachEx {
-	margin: -0.75em 0 0 -1.75em;
-	padding: 0 3em;
+	margin: -0.75em 0 0 -5%;
+	padding: 0 8.64%;
 }
 
 h2.h2AfterStuff {
@@ -172,9 +172,7 @@ div#commServ {
 	
 	}
 
-.lastPat p {
-	padding: 0 0 1em .9em;
-}
+
 
 .clearfix {
 	clear: both;
@@ -246,18 +244,14 @@ div#techBM  {
 
 @media screen and (max-width : 480px) {
 
-#shift {
-    margin: 0 0 0 1%;
-}
+
 
 header ul {
-    margin: 0 0 0.85em -1.4em;
+    margin: 0 0 0.85em -6.44%;
 	float:none;
 }
 
-h1#headName {
-    text-indent: -.5em;
-}
+
 
 .expChunk{
     width: 98%;
@@ -266,7 +260,7 @@ h1#headName {
 	
 .date {
     float: none;
-    margin: 0 0 0 1em;
+    margin: 0 0 0 3%;
 }
 
 article p {
@@ -294,7 +288,7 @@ h4 {
 }
 
 .btt {
-    margin: .5em 0 0 1.25em;
+    margin: .5em 0 0 3%;
     font-size: .75em;
 }
 
@@ -319,7 +313,7 @@ ul.coursework {
 }
 
 .teachEx li {
-    text-indent:-0.75em
+    text-indent:-3.5%;
 }
 
 }
