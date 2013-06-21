@@ -2,6 +2,11 @@
 /* CSS Document */
 
 
+body 
+{
+   background: url("../img/cardboard_flat.png"); 
+}
+
 body > div {
 	
 	margin: 0 auto;
@@ -26,13 +31,15 @@ body > div {
 
 
 .box6 {
+	color:white;
+	text-align:center;
 	margin: 0.625em 0.625em;
-   width: 6.25em;
-   height: 2.5em;
-  border: 0.25em solid black;
+   width: 6.5em;
+   height: 2.75em;
+ /* border: 0.25em solid black;*/
   padding: 0.125em;
   border-radius: 0.938em;
- background: steelblue;	
+ background-image: url("../img/tweed.png");	
 }
 
 .box6:hover, .box15:hover, .box23:hover, .box31:hover {
@@ -49,36 +56,38 @@ body > div {
 
 
 .box15 {
+	color:white;
+	text-align:center;
 margin: 0.625em;
-   width: 14.6em;
-   height: 2.5em;
-  border: 0.25em solid black;
+   width: 14.85em;
+   height: 2.75em;
   padding: 0.125em;
   border-radius: 0.938em;
-  background: steelblue;
+   background-image: url("../img/tweed.png");
  
 }
 
  
 .box23 {
- 
+   color:white;
+	text-align:center;
   margin: 0.625em; 
-  width: 23em;
-   height: 2.5em;
-  border: 0.25em solid black;
+  width: 23.25em;
+   height: 2.75em;
   padding: 0.125em;
   border-radius: 0.938em;
-  background: steelblue;
+   background-image: url("../img/tweed.png");
 }
 
 .box31 {
+	color:white;
+	text-align:center;
  margin: 0.625em;
-   width: 31.2em;
-   height: 2.5em;
-  border: 0.25em solid black;
+   width: 31.45em;
+   height: 2.75em;
   padding: 0.125em;
   border-radius: 0.938em;
-  background: steelblue;
+  background-image: url("../img/tweed.png");
  
 }
 
