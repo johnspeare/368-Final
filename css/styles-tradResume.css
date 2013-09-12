@@ -38,9 +38,25 @@ header div {
 		
 		}
 		
-img#picContext {
+#toDo div {
+		position:relative;
+		
+		}
+		
+#toDo img {
+	
+    /* display: block; */
+    /* float:  right; */
+    position:  absolute;
+    margin-left: 4%;
+	max-width:100%;
+	height: auto;
+    width: auto\9; /* ie8 */
+}
+		
+#picContext img {
 	position: absolute;
-	right: 4em;
+    margin-left: 25%;
 	max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
@@ -178,10 +194,58 @@ div#commServ {
 	clear: both;
 }
 
+@media screen and (min-width : 900px) {
+    #toDo div {
+		position:relative;
+		
+		}
+		
+#toDo img {
+	
+    /* display: block; */
+    /* float:  right; */
+    position:  absolute;
+    margin-left: 4%;
+	max-width:100%;
+	height: auto;
+    width: auto\9; /* ie8 */
+}
+
+#doThis div {
+		position:relative;
+		
+		}
+		
+#doThis img {
+	
+   width: 44em;
+    hieght: auto;
+    position:  absolute;
+    margin-left: -1.5em;
+    margin-top: -1.75em;
+    width: auto\9; /* ie8 */
+}
+
+    
+}
+
+
+
+
 @media screen and (max-width : 900px) {
 	
 
+#toDo img {
+	
+    display:none;
+    
+}
 
+#doThis img {
+	
+    display:none;
+    
+}
 body {	
 	
 	background-image: none;
@@ -200,6 +264,8 @@ ul#postPic{
 #commServ img {
     width: 134%;
 }
+
+
 }
 
 
