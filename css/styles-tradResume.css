@@ -139,6 +139,7 @@ article p {
     float: left;
 	margin: 0 0 0 2.88%;
 	padding: 0;
+	position:relative;
 }
 
 .expChunk ul {
@@ -179,7 +180,7 @@ ul.coursework {
 	width: auto;
 }
 
-div#commServ {
+#commServ p {
 	position:relative;
 	}
 	
@@ -199,6 +200,12 @@ div#commServ {
 		position:relative;
 		
 		}
+		
+		#tech img {
+    position:  absolute;
+	margin-left: 30em;
+     margin-top: -9em;
+}
 		
 #toDo img {
 	
@@ -245,6 +252,10 @@ div#commServ {
 	
     display:none;
     
+}
+
+#tech img {
+    display:none;
 }
 body {	
 	
