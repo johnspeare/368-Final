@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+article {
+    
+    margin: 0px auto;
+	padding: 1em;
+	width: 900px;
+	}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Nobile', sans-serif;
+	
+}
+
+/*Accordion Styles*/
+dl { border-bottom: 1px solid teal; /*Bottom border to complete the whole list; top borderds are done in the definition term tag (next style)*/}
+dt {
+	font-family: 'Nobile', sans-serif;
+	font-weight: bold; /*Make it bold*/
+  padding: .5em 0em .5em 1em; /*Generous padding around the manifesto points*/
+  border-top: 1px solid teal; /*Again, the top borders for the list of points*/
+  cursor: pointer; /*Make the mouse cursor look like it typically does over hyperlinks, so as to indicate the points are clickable*/
+}
+dt:hover {
+  color: teal; /*Fails in IE6, which only accepts the :hover pseudo-class on the anchor (a) selector*/
+}
+dt.accActive {
+  color: teal; /*When a bullet point is active, keep it white*/
+}
+dd a { color: teal; text-decoration: none; } /*Provide some link colors in the accordion area, rather than the gray in the greenscreen area*/
+#container dd {
+  color: black; /*Make the text black in the container, not green like the rest of the page*/
+  background-color: white; /*Make the background bright white, which should please those nearly blinded by the CRT stylings*/
+}
+dd div { 
+  padding: 3em 1em 3em 1em; /*Generous padding around the division*/
+ /* background-image: url(gfx/shadow-top.jpg); /*Put a shadow graphic at the top for a slight 3D effect*/ 
+ /* background-repeat: no-repeat; /*Don't repeat the image, though; show it once and that's it*/
+ /* background-position: center top; /*Center the shadow, no matter the width of the screen*/
+ font-family: 'Vollkorn', serif; 
+ }
+ 
+  dd ul b, strong {
+   font-size: 95%; /*back off the size on bolds in uls*/ 
+  }
+dd blockquote {
+  font-family:'Nobile', sans-serif; /*Style the blockquote text*/
+  font-size: 95%; /*Make it slightly smaller*/
+  font-weight: bold; /*Make it bold*/
+  width: 17em; /*Give it a precise width so as to float it (below)*/
+  padding: 1em; /*Padding moves the text back from the edges of the background images*/ 
+  margin-top: .4em; /*The top margin moves the blockquote away from the shadow*/
+  margin-right: 1em; /*The right margin keeps the running text from getting too close*/
+  margin-bottom: 0em; /*And with the generous line-height, there's no need for a bottom margin*/
+  float: left; /*Float the blockquote left; running text will wrap around it*/
+  color: teal; /*Use a sort of sky-blue color for the text*/
+ /* background-image: url(gfx/quote-top.jpg); Top background image for quotes...*/
+  /*background-repeat: no-repeat; /*Don't repeat it*/
+  /*background-position: top left; /*Place it in the top left corner of the blockquote*/
+  }
+dd blockquote p {
+  background-image: url(gfx/quote-bottom.jpg); /*Bottom background image for quotes...*/
+  background-repeat: no-repeat;  /*Again, don't repeat it*/
+  background-position: bottom right; /*Place it in the bottom corner*/
+  padding-bottom: 1em; /*Push the text back from the bottom corner image*/
+  padding-right: 1em; /*Ditto*/
+  }
+/*Complex selector here! It styles any paragraph that follows another paragraph
+ (siblings) that are first children of divs, which are first children of the
+  defintion text (dd); this keeps browsers from indenting the blockquote text,
+  which is also in a paragraph. There are other ways to achieve this, but this
+  intentionally rewards standard-compliant browsers like Firefox, Opera, and 
+  Safari:*/
+dd > div > p + p { text-indent: 2em; margin-top: 1em; } /*Add some nice indentation after the first paragraph, for compliant browsers. Sorry, IE 6, you lose. */
+blockquote cite { 
+  margin-top: .5em; /*Give the citation breathing room under the blockquote*/
+  display: block; /*Cite is usually an inline tag (like bold); this forces it to display as a block-level tag, like a heading--moving it to its own line*/
+  font-style: italic; /*Italicize the text in cite, which will be the title of the work*/
+  font-weight: normal; /*Because text in the blockquote was bolded above, cite is unbolded by making it "normal")*/
+}
+blockquote em { font-weight: bold; } /*Bold emphasis, in addition to italicizing it. It looks good, don't worry*/
+blockquote cite.article { font-style: normal; } /*However, don't italicize article names, following APA style*/
+blockquote cite span {
+  font-style: normal; /*Keep author names from being italicized, either*/
+  font-variant: small-caps; /*Small caps, just for a little visual touch*/
+}
