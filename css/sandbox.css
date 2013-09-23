@@ -29,6 +29,10 @@ dt.accActive {
   color: teal; /*When a bullet point is active, keep it white*/
 }
 dd a { color: teal; text-decoration: none; } /*Provide some link colors in the accordion area, rather than the gray in the greenscreen area*/
+
+dd a:hover {
+	color:black;
+}
 #container dd {
   color: black; /*Make the text black in the container, not green like the rest of the page*/
   background-color: white; /*Make the background bright white, which should please those nearly blinded by the CRT stylings*/
