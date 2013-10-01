@@ -5,7 +5,7 @@ article {
     
     margin: 0px auto;
 	padding: 1em;
-	width: 900px;
+	width: 600px;
 	}
 
 h1, h2, h3, h4, h5 {
@@ -33,6 +33,11 @@ dd a { color: teal; text-decoration: none; } /*Provide some link colors in the a
 dd a:hover {
 	color:black;
 }
+
+dd a:visited {
+	color:grey;
+}
+	
 #container dd {
   color: black; /*Make the text black in the container, not green like the rest of the page*/
   background-color: white; /*Make the background bright white, which should please those nearly blinded by the CRT stylings*/
@@ -52,12 +57,12 @@ dd blockquote {
   font-family:'Nobile', sans-serif; /*Style the blockquote text*/
   font-size: 95%; /*Make it slightly smaller*/
   font-weight: bold; /*Make it bold*/
-  width: 17em; /*Give it a precise width so as to float it (below)*/
+  width: 85%; /*Give it a precise width so as to float it (below)*/
   padding: 1em; /*Padding moves the text back from the edges of the background images*/ 
   margin-top: .4em; /*The top margin moves the blockquote away from the shadow*/
   margin-right: 1em; /*The right margin keeps the running text from getting too close*/
   margin-bottom: 0em; /*And with the generous line-height, there's no need for a bottom margin*/
-  float: left; /*Float the blockquote left; running text will wrap around it*/
+ /* float: left; /*Float the blockquote left; running text will wrap around it*/
   color: teal; /*Use a sort of sky-blue color for the text*/
  /* background-image: url(gfx/quote-top.jpg); Top background image for quotes...*/
   /*background-repeat: no-repeat; /*Don't repeat it*/
