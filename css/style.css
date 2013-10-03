@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		 
+		 font-family: "century gothic", courier, sans-serif;
+		 color: black;
+		  background-image: url("../img/straws.png");
+		 }
+		 
+h1, h2, h3 {
+	color: grey;
+	margin-left: -5%;
+	}
+	
+	.container {
+		width: 70%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	
+	a {
+	color: blue;
+	text-decoration: none;
+	text-shadow:   .5px -0.5px 0 #000000;
+	}
+	
+	a:hover {
+	color: grey;
+	text-decoration: underline;
+	
+}
+
+/*#A63696;*/
