@@ -228,6 +228,29 @@ div.notes {
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
+#notes2 p{
+    font-family: 'Just Me Again Down Here', cursive;
+	text-shadow: 0 0 1px rgba(0,0,0,0.25);
+    position:absolute;
+    font-size: 32px;
+    margin-left: 15em;
+    margin-top: 8em;
+    /* Safari */
+-webkit-transform: rotate(-5deg);
+
+/* Firefox */
+-moz-transform: rotate(-5deg);
+
+/* IE */
+-ms-transform: rotate(-5deg);
+
+/* Opera */
+-o-transform: rotate(-5deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
 		
 		#tech img {
     position:  absolute;
