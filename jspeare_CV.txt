@@ -1,0 +1,219 @@
+
+John Speare
+===========
+
+
+	* 453 W 26th AVE, Spokane WA 99203
+	* john@phred.org
+	* 509.981.3348
+
+
+Education
+=========
+
+
+	Masters of Arts, Technical Communication and Rhetoric
+	=====================================================
+	Eastern Washington University, Cheney, WA.
+	Thesis: "Title_goes_here: Critical digital literacy"
+	Anticipated graduation date: June 2014
+
+
+
+	Bachelor of Arts, English Literature
+	====================================
+	Eastern Washington University, Cheney, WA.
+	June 1995
+
+
+Teaching Experience
+===================
+
+
+	Eastern Washington University
+	=============================
+	Instructor of record:
+
+	* English 101 — College Composition: Exposition and Argumentation
+	* English 201 — College Composition: Analysis, Argumentation, Documentation
+	* English 205 — Introduction to Technical Communication
+
+	Team/Internship instructor:
+
+	* English 100 — College Composition: Developmental
+	* The Learning Commons—Writing Center Responder
+
+
+
+
+
+Relevant Graduate Coursework
+============================
+
+	* Contemporary Rhetorical Theory
+	* The Composing Curriculum
+	* Composition Practicum
+	* Teaching Technical Communication
+	* Writing Center Theory & Pedagogy
+	* Information Design
+	* Grammar and Composition
+	* Modern Grammar
+	* History of Rhetoric
+	* Composition: Practice, Theory, & Pedagogy
+	* HTML5 - Designing Web Sites
+
+
+Publications
+============
+
+
+	Software Documentation
+	======================
+		Office 365, Exchange Server, Microsoft Corporation
+		Selected samples available here.
+		[http://studentweb.ewu.edu/jspeare1/sandbox.html]
+
+
+	“Keen Austin Shoes”
+	===================
+		Review. Bicycle Quarterly, Bicycle Quarterly Ltd. (Vol 9,4), Summer 2011.
+
+
+	“Building a Practical Bike”
+	===========================
+		Feature. Bicycle Times, Dirt Rag Ltd. (Issue 007), October 2010.
+
+
+	“Glen Copus is the Man”
+	=======================
+		Profile. Road, H3 Publications. April 2010.
+	
+
+
+Honors & Awards
+===============
+
+
+	Graduate Student Assistantship: Multiliteracy Program Developer
+	===============================================================
+		Eastern Washington University, Writers’ Center, 2013–2014
+
+
+	Graduate Student Assistantship: Composition Instructor
+	======================================================
+		Eastern Washington University, Department of English, 1997–1998, and 2012–2013
+
+
+	Group Service Award
+	===================
+		Microsoft Corporation, Exchange Server Engineering team, 2011
+		Recognition of exemplary cross-team collaboration.
+
+
+	Gold Star
+	=========
+		Microsoft Corporation, Exchange Server Engineering team, 2010
+		Project-specific recognition of exemplary project management and content delivery.
+
+
+	Bill G Review
+	=============
+		Microsoft Corporation, 2004
+		Selected to represent a team project in a group presentation, Secure
+		Messaging Features, to Bill Gates and the executive team.
+
+
+Community Service
+=================
+
+
+	Co-Founder, Volunteer
+	=====================
+		Pedals2People, Spokane, WA
+		www.pedals2people.org
+		April 2007 to present
+
+
+	Member at Large
+	===============
+		City of Spokane Bicycle Advisory Board, Spokane, WA
+		September 2006 to October 2010
+
+
+
+Patents — Co–Inventor
+=====================
+
+	Method for Updating Data in Accordance with Rights Management Policy
+	#8,117,595
+
+
+
+	Method for Dynamic Application of Rights Management Policy
+	#7,430,754
+
+
+
+	Rights Management Inter-entity Message Policies and Enforcement
+	#7,284,263 and #7,181,761
+
+
+
+	Pre-licensing of Rights Management Protected Content
+	#7,210,165
+
+
+
+Relevant Professional Experience
+================================
+
+	Writer
+	======
+	Monthly cycling column and bimonthly gear reviews. Out There Monthly,
+	Spokane, WA.
+	April 2007 to September 2012
+
+
+	Senior Technical Writer
+	=======================
+	Office 365, Exchange Server Microsoft, Redmond and Spokane, WA.
+	January 2004 to September 2012
+
+
+	Feature Program Manager
+	=======================
+	Exchange Server Microsoft, Redmond, WA.
+	November 2001 to January 2004
+
+
+	Technical Writing Manager, Junior Technical Writer
+	==================================================
+	Mobile Information Server Microsoft, Redmond, WA.
+	July 1998 to November 2001
+
+
+
+Technologies
+============
+
+	Proficient
+	==========
+	Word, Excel, PowerPoint, Outlook, Office 365 Administration, Canvas,
+	Blackboard, Blogspot, Microsoft Exchange Server, Picasa, Quickbooks,
+	DocStudio, ProductStudio.
+
+
+	Familiar
+	========
+	HTML5, CSS 3, FTP, TLS, authentication, Adobe Dreamweaver, Adobe
+	Photoshop, Microsoft Project, WordPress, GitHub, Microsoft Sharepoint,
+	Microsoft Active Directory Service, Camtasia, Ubuntu.
+
+****************************************************
+
+An html version of this CV is available at 
+http://studentweb.ewu.edu/jspeare1/readableCV.html
+
+****************************************************
+
+
