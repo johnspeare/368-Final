@@ -166,6 +166,58 @@ ul.coursework {
 	padding: 0 0 1em .9em;
 }
 
+@media all {
+	.page-break, .printOnly	{ display: none; }
+}
+
+
+	
+
+
+
+@media print {
+
+body {
+	font-family: Georgia, serif;
+	background: none;
+	color: black;
+	width: 100%;
+	margin: 0; padding: 0;
+	background: none;
+}
+
+.printOnly {display:inline;}
+
+.page-break	{ display: block; page-break-before: always; }
+
+.container {width:100%;}
+
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+h1{font-size:19pt;}
+h2{font-size:17pt;}
+h3{font-size:15pt;}
+h4,h5,h6{font-size:12pt;}
+
+
+#viewOptions, .noPrint {
+	display: none;
+}
+
+.printChunk {
+	width: 90%;}
+	
+.printChunk50 {
+	width: 50%;}
+	
+	
+.printLink:after {
+	content: " [" attr(href) "] ";
+}
+
+
+}
+
+
 @media screen and (max-width : 600px) {
 
 h2 {

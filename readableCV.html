@@ -34,8 +34,8 @@ function newPopup(url) {
 <!-- Header -->
 	<header>
        <!-- <img src="img/logo-24.png" alt="960 Grid Logo" />-->
-		<div>
-        <a href="cv.html"><span id="cv" data-icon="&#x6d;" aria-hidden="true"></span> </a>
+		<div id="viewOptions">
+        <a href="cv.html"><span id="cv" data-icon="&#x6d;" aria-hidden="true"></span></a> 
         </div>
         <h1>John Speare</h1>
         <ul>
@@ -77,7 +77,7 @@ function newPopup(url) {
                        <p><em>Eastern Washington University</em>, Cheney, WA. <br></p>
                        <ul class="teachEx">
                        <li>Thesis: "Title_goes_here: Critical digital literacy"<br>
-                       <li><a href="portfolio.html">Selected student portfolio</a></ul>
+                       <li><a class="printLink" href="http://studentweb.ewu.edu/jspeare1/portfolio.html">Selected student portfolio</a></ul>
                 </div>
                 <div class="date">
                     <p>Anticipated graduation date:<br> June 2014</p>
@@ -98,7 +98,7 @@ function newPopup(url) {
          </div>    
              <div class="mobNav btt"><a href="#mobLinks">back to top</a></div> 
 <h2 id="techExpBM">Teaching Experience</h2>
-          <div class="expChunk">	
+          <div class="expChunk printChunk">	
       		<h4>Eastern Washington University</h4>
             <p><em>Instructor of record</em>:</p>
     			<ul class="teachEx">
@@ -120,7 +120,7 @@ function newPopup(url) {
         <div class="main1">
          
            <div class="main2">        
-                  <div class="expChunk">
+                  <div class="expChunk printChunk50">
                  
                   <ul class="coursework">
                           <li>Contemporary Rhetorical Theory</li>
@@ -160,31 +160,33 @@ function newPopup(url) {
        
         </div>
 		<div class="mobNav btt"><a href="#mobLinks">back to top</a></div> --> 
+        <div class="page-break"></div>
 <h2 id="pubBM" class="h2AfterStuff">Publications</h2>
-      <div class="expChunk">
+      <div class="expChunk printChunk">
                
                <h4>Software Documentation</h4>
                <p><em>Office 365</em>, <em>Exchange Server</em>, Microsoft Corporation <br>
-               Selected samples available <a href="JavaScript:newPopup('sandbox.html');">here</a>.</p>
+               Selected samples available <a href="JavaScript:newPopup('sandbox.html');">here</a>.<br>
+               <span class="printOnly"><a href="http://studentweb.ewu.edu/jspeare1/sandbox.html">[http://studentweb.ewu.edu/jspeare1/sandbox.html]</a></span></p>
                
                <h4>&ldquo;Keen Austin Shoes&rdquo;</h4>
                <p>Review. <em>Bicycle Quarterly</em>, Bicycle Quarterly Ltd. (Vol 9,4), Summer 2011.</p>
                
                <h4>&ldquo;Building a Practical Bike&rdquo;</h4>
                <p>Feature. <em>Bicycle Times</em>, Dirt Rag Ltd. (Issue 007), October 2010.<br>
-               <a href="#">pdf</a></p>
+               <a class="printLink" href="http://www.johndogfood.com/john/BT-Fall2010-Speare.pdf">pdf</a></p>
                
                <h4>&ldquo;Glen Copus is the Man&rdquo;</h4>
                <p>Profile. <em>Road</em>, H3 Publications. April 2010.<br>
-               <a href="#">pdf</a></p>
+               <a class="printLink" href="http://www.johndogfood.com/john/Glen_Copus_Road_Article_Apr_2010.pdf">pdf</a></p>
               
         </div>
         <div class="mobNav btt"><a href="#mobLinks">back to top</a></div>  
 <h2 id="honorsBM">Honors &amp; Awards</h2>
-      <div class="expChunk">
+      <div class="expChunk printChunk">
                
                <h4>Graduate Student Assistantship: Multiliteracy Program Developer</h4>
-               <p><em>Eastern Washington University</em>, Writing Center, 2013&ndash;2014</p>
+               <p><em>Eastern Washington University</em>, Writers&#8217; Center, 2013&ndash;2014</p>
                
                
                <h4>Graduate Student Assistantship: Composition Instructor</h4>
@@ -204,6 +206,7 @@ function newPopup(url) {
               
         </div>
         <div class="mobNav btt"><a href="#mobLinks">back to top</a></div>  
+        <div class="page-break"></div>
 <h2 id="commServBM">Community Service</h2>
       <div class="expChunk">
                <h4>Co-Founder, Volunteer</h4>
@@ -225,27 +228,27 @@ function newPopup(url) {
        <div class="mobNav btt"><a href="#mobLinks">back to top</a></div>  
        
 <h2 id="patentsBM">Patents &mdash; Co&ndash;Inventor</h2>
-      <div class="expChunk">
+      <div class="expChunk printChunk">
                <p class="title">Method for Updating Data in Accordance with Rights Management Policy<br>
                <a href="http://www.google.com/patents/US8117595" target="_blank">&#35;8,117,595</a></p>
       </div>
         
          
-            <div class="expChunk">
+            <div class="expChunk printChunk">
                <p class="title">Method for Dynamic Application of Rights Management Policy<br>
                <a href="http://www.google.com/patents/US7430754" target="_blank">&#35;7,430,754</a></p>
                
         </div>
             
     
-    <div class="expChunk">
+    <div class="expChunk printChunk">
                <p class="title">Rights Management Inter-entity Message Policies and Enforcement<br>
                <a href="http://www.google.com/patents/US7284263" target="_blank">&#35;7,284,263</a> and <a href="http://www.google.com/patents/US7181761" target="_blank">&#35;7,181,761</a></p>
                
         </div>
         
          
-        <div class="expChunk">
+        <div class="expChunk printChunk">
                <p class="title">Pre-licensing of Rights Management Protected Content<br>
                <a href="http://www.google.com/patents/US7210165" target="_blank">&#35;7,210,165</a></p>
                
@@ -258,7 +261,7 @@ function newPopup(url) {
        <div class="expChunk">
                
                <h4>Writer</h4>
-               <p><a href="http://outtheremonthly.ziplinestaging.com/author/johnspeare/">Monthly cycling column and bimonthly gear reviews</a>. <em>Out There Monthly</em>, Spokane, WA. </p>
+               <p><a class="printLink" href="http://outtheremonthly.ziplinestaging.com/author/johnspeare/">Monthly cycling column and bimonthly gear reviews</a><span class="noPrint">.</span> <em>Out There Monthly</em>, Spokane, WA. </p>
                
         </div>
         <div class="date">
@@ -296,16 +299,17 @@ function newPopup(url) {
         	<p>July 1998 to<br>November 2001</p>
  		 </div> 
 		<div class="mobNav btt"><a href="#mobLinks">back to top</a></div>  
+        <div class="page-break"></div>
 <h2 id="techBM">Technologies</h2>
-      <div class="expChunk">
+      <div class="expChunk printChunk">
                <h4>Proficient</h4>
                <p>Word, Excel, PowerPoint, Outlook,  Office 365 Administration, Canvas, Blackboard, Blogspot, Microsoft Exchange Server, Picasa, Quickbooks, DocStudio, ProductStudio.</p>
       </div>
       
-      <div class="expChunk">
+      <div class="expChunk printChunk">
                <h4>Familiar</h4>
-               <p>HTML5, CSS 2.1, CSS 3, FTP, TLS, authentication, Adobe Dreamweaver, Adobe Photoshop, Microsoft Project, WordPress, GitHub, Microsoft Sharepoint, Microsoft Active Directory Service, Camtasia, Ubuntu.</p>
-               <p><small>&#9829; Check out the <a href="tradResume.html">draft CV</a> &#9829;</small></p>
+               <p>HTML5, CSS 3, FTP, TLS, authentication, Adobe Dreamweaver, Adobe Photoshop, Microsoft Project, WordPress, GitHub, Microsoft Sharepoint, Microsoft Active Directory Service, Camtasia, Ubuntu.</p>
+               <p><small>&#9829; Check out the <a class="printLink" href="http://studentweb.ewu.edu/jspeare1/tradResume.html">draft CV</a> &#9829;</small></p>
       </div>
        <div class="mobNav btt"><a href="#mobLinks">back to top</a></div>  </article>
 
